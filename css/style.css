@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 1em;
+}
+
+/* global variables */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: cornflowerblue;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  height: 3em;
+}
+
+nav li {
+  padding: 1em 2em;
+}
+
+nav li a {
+  color: hsl(346, 100%, 97%);
+}
+
+body {
+  font-family: serif;
+  font-size: 1em;
+}
+
+section p {
+  line-height: 2em;
+}
